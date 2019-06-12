@@ -1,0 +1,20 @@
+{
+  "name": "visitor",
+  "version": "1.0.0",
+  "description": "A generic DFS or BFS visitor for use in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "visitor",
+    "dfs",
+    "bfs"
+  ],
+  "author": "Sean Lee (seanzer@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "es6-shim": "^0.35.5",
+    "typescript": "^3.4.5"
+  }
+}
