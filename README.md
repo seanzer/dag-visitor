@@ -13,7 +13,10 @@ const b = { id: 'b', children: []};
 a.children.push(b);
 
 const dfsVisitor = new DfsVisitor(
-    (node) => { console.log(`previsit: ${node.id}`); },
+    (node) => { 
+        console.log(`previsit: ${node.id}`); 
+        return node.children; 
+    },
     (node) => { console.log(`postvisit: ${node.id}`); });
 
 dfsVisitor.visit([a, b]);
