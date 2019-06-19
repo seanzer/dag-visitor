@@ -1,4 +1,4 @@
-import {IVisitor} from "./visitor";
+import {IVisitor} from './visitor';
 
 export class DfsVisitor<T> implements IVisitor<T> {
     constructor(

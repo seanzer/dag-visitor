@@ -1,20 +1,34 @@
 {
-  "name": "visitor",
+  "name": "dag-visitor",
   "version": "1.0.0",
-  "description": "A generic visitor for use in JavaScript",
-  "main": "index.js",
+  "description": "A generic DAG visitor for use in JavaScript",
+  "main": "bin/visitor.js",
+  "types": "bin/visitor.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "tsc",
+    "test": "karma start --single-run"
   },
   "keywords": [
     "visitor",
     "dfs",
-    "bfs"
+    "bfs",
+    "dag",
+    "graph"
   ],
   "author": "Sean Lee (seanzer@gmail.com)",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^3.3.13",
     "es6-shim": "^0.35.5",
+    "jasmine-core": "^3.4.0",
+    "karma": "^4.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-typescript": "^4.1.0",
     "typescript": "^3.4.5"
-  }
+  },
+  "files": ["bin/**/*"]
 }
