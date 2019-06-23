@@ -1,6 +1,6 @@
 {
   "name": "dag-visitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A generic DAG visitor for use in JavaScript",
   "main": "bin/visitor.js",
   "types": "bin/visitor.d.ts",
@@ -31,5 +31,7 @@
     "karma-typescript": "^4.1.0",
     "typescript": "^3.4.5"
   },
-  "files": ["bin/**/*"]
+  "files": [
+    "bin/**/*"
+  ]
 }
