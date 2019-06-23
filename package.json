@@ -17,6 +17,7 @@
   ],
   "author": "Sean Lee (seanzer@gmail.com)",
   "license": "MIT",
+  "repository": "github:seanzer/dag-visitor",
   "dependencies": {},
   "devDependencies": {
     "@types/jasmine": "^3.3.13",
