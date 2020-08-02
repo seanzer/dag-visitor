@@ -1,6 +1,6 @@
 {
   "name": "dag-visitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A generic DAG visitor for use in JavaScript",
   "main": "bin/visitor.js",
   "types": "bin/visitor.d.ts",
